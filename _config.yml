@@ -1,0 +1,33 @@
+
+title: CodeCarrot Blog - Ruby on Rails, Online Marketing, Development, Design, and more
+email: contact@codecarrot.net
+description: CodeCarrot Blogs - Ruby on Rails, Web Development, Designing, Startups, Outsourcing, Remote work, Online Marketing and more.
+baseurl: ""
+url: "https://blog.codecarrot.net"
+twitter:
+  username: codecarrotnet
+github:
+  username:  codecarrotnet
+logo: "https://cdn.codecarrot.net/images/favicon.png"
+webmaster_verifications:
+  google: 4YT4xkzM4wsDqWQY6J6LQplYCKTXAgI410kIAGE22VA
+facebook:
+ app_id: 181159655729057
+
+permalink: :title/
+
+paginate_path: "/page/:num/"
+paginate: 12
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jemoji
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
