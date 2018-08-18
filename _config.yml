@@ -3,7 +3,7 @@ title: CodeCarrot Blog - Ruby on Rails, Online Marketing, Development, Design, a
 email: contact@codecarrot.net
 description: CodeCarrot Blogs - Ruby on Rails, Web Development, Designing, Startups, Outsourcing, Remote work, Online Marketing and more.
 baseurl: ""
-url: "https://blog.codecarrot.net"
+url: "https://www.tuxwp.com"
 twitter:
   username: codecarrotnet
 github:
@@ -14,7 +14,7 @@ webmaster_verifications:
 facebook:
  app_id: 181159655729057
 
-permalink: :title/
+permalink: :title.shtml
 
 paginate_path: "/page/:num/"
 paginate: 12
